@@ -29,9 +29,32 @@
 		B79E59582F12A05600F8F8DF /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B79E596F2F12B7BD00F8F8DF /* Exceptions for "Landmarks" folder in "LandmarksTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CircleImageView.swift,
+				MapView.swift,
+			);
+			target = B79E594D2F12A05600F8F8DF /* LandmarksTests */;
+		};
+		B79E59702F12B7BD00F8F8DF /* Exceptions for "Landmarks" folder in "LandmarksUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CircleImageView.swift,
+				MapView.swift,
+			);
+			target = B79E59572F12A05600F8F8DF /* LandmarksUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B79E59432F12A05200F8F8DF /* Landmarks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B79E596F2F12B7BD00F8F8DF /* Exceptions for "Landmarks" folder in "LandmarksTests" target */,
+				B79E59702F12B7BD00F8F8DF /* Exceptions for "Landmarks" folder in "LandmarksUITests" target */,
+			);
 			path = Landmarks;
 			sourceTree = "<group>";
 		};
