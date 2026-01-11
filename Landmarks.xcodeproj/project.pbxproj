@@ -34,6 +34,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				CircleImageView.swift,
+				Landmark.swift,
 				MapView.swift,
 			);
 			target = B79E594D2F12A05600F8F8DF /* LandmarksTests */;
@@ -42,6 +43,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				CircleImageView.swift,
+				Landmark.swift,
 				MapView.swift,
 			);
 			target = B79E59572F12A05600F8F8DF /* LandmarksUITests */;
